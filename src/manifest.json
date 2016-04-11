@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Quipper",
+  "description": "Log into Quipper and check your Todo list right in Chrome!",
+  "version": "1.0",
+
+  "background": {
+    "persistent": false,
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "cookies",
+    "activeTab",
+    "https://*.quipper.com/",
+    "https://*.quipper.net/"
+  ]
+}

@@ -1,0 +1,11 @@
+@import 'qstrap';
+
+body, html {
+  width: 320px;
+  min-height: inherit !important;
+  height: inherit !important;
+}
+
+.user-header {
+  background-color: #f0f0f0;
+}

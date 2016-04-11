@@ -1,0 +1,23 @@
+<a class="list-group-item todo-circle-item todo-circle-item-assignment" href="https://learn.quipper.com" target="_blank">
+  <div class="deadline todo-circle"><div class="month caps size-sm">Apr</div><div class="day size-lg">15</div><div class="decor assignment-decor"></div></div>
+
+  <div class="row">
+    <div class="todo-title size-lg semibold m-b-sm p-l">
+      <div class="icon-container">
+        <svg class="icon icon-fade"><use xlink:href="#common-{{ icon }}"></use></svg>
+        {{ name }}
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-9 p-a-0">
+      <div class="todo-subtitle semibold m-b-0 p-l">
+        <div class="icon-container">
+          <img src="{{ student_group.icon_url }}" class="icon">
+          {{ student_group.name }}
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
