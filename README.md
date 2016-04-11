@@ -4,7 +4,7 @@ Never miss an assignment! This is a concept Chrome Extension that allows you to 
 
 ## Requirements
 
-- [npm](https://www.npmjs.com/)
+- [nodejs](https://nodejs.org/)
 - [gulp](http://gulpjs.com/)
 
 ## Installation
